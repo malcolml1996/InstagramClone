@@ -1,0 +1,117 @@
+body{
+  width:100%;
+  background-color:#fafafa;
+  font-family:"Segoe UI Thin", Arial;
+}
+
+p{
+  font-size: 15px;
+}
+
+img{
+  display: block;
+  margin: 0px auto;
+}
+
+form{
+  width:100%;
+}
+
+input[type=text]{
+  padding:8px 8px;
+  margin:4px;
+  width:90%;
+  border:1px #f0f0f0 solid;
+  background-color: #fafafa;
+  color:grey;
+  /* border-color:lightgrey; */
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  display: block;
+  width:1050px;
+  margin:70px auto 50px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size:12px;
+}
+
+.container{
+  width:784px;
+  margin:auto;
+  margin-top:40px;
+  display:block;
+  height:auto;
+  overflow: auto;
+  /* background-color:blue; */
+}
+
+.imageBox{
+  display:block;
+  float:left;
+  width:auto;
+  margin:150px auto auto auto;
+  /* background-color: red; */
+}
+
+.outerFormBox{
+  display:block;
+  float:right;
+  width:413px;
+  text-align: center;
+  /* background-color: green; */
+}
+
+.innerFormBox{
+  background-color: white;
+  color:#b0b0b0;
+  margin:0px 25px;
+  padding:40px;
+  border:1px #f0f0f0 solid;
+  text-align: center;
+  height:auto;
+}
+
+.button{
+  width:99%;
+  padding:0px 0px;
+}
+
+.termsBox{
+  margin:0px 29px;
+}
+
+.loginBox{
+  background-color: white;
+  margin:12px 25px;
+  padding:30px 40px;
+  border:1px #f0f0f0 solid;
+  text-align: center;
+  height:auto;
+}
+
+.icon{
+  display:inline-block;
+  margin:5px;
+  height:40px;
+}
+
+.footerNav{
+  list-style-type: none;
+}
+
+.navPart{
+  color:black;
+  display:inline;
+  padding:8px;
+}
+
+.copyright{
+  display:inline;
+  color:#b0b0b0;
+  margin-left: 150px;
+}
